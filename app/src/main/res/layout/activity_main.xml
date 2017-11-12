@@ -1,0 +1,181 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@color/fondo"
+             tools:context="com.ecca1.ranss12.ranss12fds.MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/fullscreen_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/modeloulm"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:keepScreenOn="true"
+                android:text="@string/modelo_ulm"
+                android:textColor="@color/negro"
+                android:textSize="42sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                app:srcCompat="@mipmap/fotoportada" />
+
+            <TextView
+                android:id="@+id/tituloapp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:keepScreenOn="true"
+                android:text="@string/nombre_app"
+                android:textColor="@color/negro"
+                android:textSize="38sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fecha_hora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:keepScreenOn="true"
+                android:text="@string/fecha"
+                android:textColor="@color/negro"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnPilotos"
+                    android:textSize="26sp"
+                    android:text="@string/btnPiloto"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:paddingTop="2dp"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:drawableTop="@drawable/ic_account_circle_black_48dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_height="match_parent" />
+
+                <Button
+                    android:id="@+id/btnMtos"
+                    android:textSize="26sp"
+                    android:text="@string/btnMtos"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:paddingTop="2dp"
+                    android:textAlignment="center"
+                    android:drawableTop="@drawable/ic_build_black_48dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnVuelos"
+                    android:textSize="26sp"
+                    android:textAlignment="center"
+                    android:text="@string/btnVuelos"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:paddingTop="2dp"
+                    android:drawableTop="@drawable/ic_flight_takeoff_black_48dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_height="match_parent"/>
+
+                <Button
+                    android:id="@+id/btnConfig"
+                    android:textSize="26sp"
+                    android:textAlignment="center"
+                    android:text="@string/btnConfig"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:paddingTop="2dp"
+                    android:drawableTop="@drawable/ic_settings_black_48dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:layout_height="0dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnBackup"
+                    android:textSize="26sp"
+                    android:textAlignment="center"
+                    android:text="@string/btnBackup"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:paddingTop="2dp"
+                    android:drawableTop="@drawable/ic_sd_card_black_48dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_height="match_parent"/>
+
+                <Button
+                    android:id="@+id/btnExit"
+                    android:textSize="26sp"
+                    android:textAlignment="center"
+                    android:text="@string/btnExit"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:paddingTop="2dp"
+                    android:drawableTop="@drawable/ic_power_settings_new_black_48dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

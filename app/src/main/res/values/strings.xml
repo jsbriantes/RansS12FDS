@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Flight Digital System</string>
+
+    <string name="modelo_ulm">RANS S12-XL  EC-CA1</string>
+    <string name="nombre_app">FLIGHT DIGITAL SYSTEM</string>
+    <string name="fecha">Version 0.1 (Beta Build 01) - October 2017</string>
+    <string name="btnPiloto">PILOTS</string>
+    <string name="btnMtos">MAINTENANCE</string>
+    <string name="btnConfig">SETTINGS</string>
+    <string name="btnVuelos">FLIGHTS</string>
+    <string name="btnBackup">BACKUP</string>
+    <string name="btnExit">EXIT</string>
+
+
+    <string name="Backup">Database Backup</string>
+    <string name="MakeBackupQ">Do you want to make a database backup?</string>
+    <string name="MakeBackup">Make Backup</string>
+    <string name="BackupSuc">Backup succesfully</string>
+    <string name="BackupSucLg">Backup has completed successfully. Do you want to send it by email?</string>
+    <string name="Send">Send</string>
+    <string name="BackupError">Backup Failure</string>
+    <string name="BackupErrorLg">Backup has not been made. Try it later.</string>
+
+</resources>
